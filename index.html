@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мебель на заказ | Изготовление мебели по индивидуальным размерам</title>
+  <meta name="description" content="Изготовление мебели на заказ — кухни, шкафы-купе, прихожие, спальни, гостиные. Собственное производство, гарантия 2 года, замер и доставка включены.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== HEADER ===== -->
+<header class="header" id="header">
+  <div class="container header__inner">
+    <a href="#" class="logo">
+      <div class="logo__mark">
+        <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><rect x="2" y="3" width="20" height="14" rx="2" stroke="#0e0c09" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="#0e0c09" stroke-width="2" stroke-linecap="round"/></svg>
+      </div>
+      <span class="logo__text">МебельМастер<span class="logo__suffix"> на заказ</span></span>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#services">Услуги</a>
+      <a href="#price">Цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#works">Портфолио</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+    <a href="tel:+79990000000" class="header__phone">+7 (999) 000-00-00</a>
+    <a href="#contact" class="btn btn--accent btn--sm"><span>Рассчитать стоимость</span></a>
+    <button class="burger" id="burger" aria-label="Меню">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="hero">
+  <div class="hero__bg"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <div class="hero__badge">Собственное производство · Гарантия 2 года</div>
+      <h1 class="hero__title">Мебель точно<br><em>под ваш интерьер</em></h1>
+      <p class="hero__sub">Изготавливаем кухни, шкафы-купе, прихожие и корпусную мебель под заказ. Замер, проект, производство и монтаж — под ключ.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--accent">Рассчитать стоимость бесплатно</a>
+        <a href="tel:+79990000000" class="btn btn--ghost">
+          <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M2 3.5A1.5 1.5 0 013.5 2h.878c.486 0 .916.308 1.079.768l1.046 2.98a1.5 1.5 0 01-.342 1.574L5.07 8.43C6.2 10.42 7.58 11.8 9.57 12.93l1.108-1.09a1.5 1.5 0 011.574-.343l2.98 1.046c.46.162.768.593.768 1.079V15.5A1.5 1.5 0 0114.5 17C7.596 17 2 11.404 2 4.5V3.5z" fill="currentColor"/></svg>
+          Позвонить
+        </a>
+      </div>
+      <div class="hero__stats">
+        <div class="hero__stat">
+          <span class="hero__num" data-target="12">0</span><span class="hero__unit">+</span>
+          <span class="hero__label">лет опыта</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__num" data-target="850">0</span><span class="hero__unit">+</span>
+          <span class="hero__label">проектов сдано</span>
+        </div>
+        <div class="hero__stat">
+          <span class="hero__num" data-target="2">0</span><span class="hero__unit"> года</span>
+          <span class="hero__label">гарантия</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero__card">
+      <div class="hero__card-inner">
+        <div class="hero__icon-big">
+          <svg viewBox="0 0 64 64" fill="none" width="56" height="56">
+            <rect x="6" y="14" width="52" height="32" rx="3" stroke="#c8820a" stroke-width="2.5"/>
+            <path d="M6 30h52" stroke="#c8820a" stroke-width="2.5"/>
+            <path d="M20 14v32M44 14v32" stroke="#c8820a" stroke-width="1.5" stroke-dasharray="4 3"/>
+            <path d="M16 52h8M40 52h8M32 46v8" stroke="#c8820a" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div class="hero__card-title">Индивидуальный проект</div>
+        <div class="hero__card-sub">Каждый заказ — уникальное решение под ваш интерьер</div>
+        <div class="hero__card-items">
+          <div class="hero__card-item">
+            <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8l3.5 3.5L13 4" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Бесплатный замер на дому
+          </div>
+          <div class="hero__card-item">
+            <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8l3.5 3.5L13 4" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            3D-визуализация проекта
+          </div>
+          <div class="hero__card-item">
+            <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8l3.5 3.5L13 4" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Доставка и монтаж включены
+          </div>
+          <div class="hero__card-item">
+            <svg viewBox="0 0 16 16" fill="none" width="14" height="14"><path d="M3 8l3.5 3.5L13 4" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Гарантия 2 года, договор
+          </div>
+        </div>
+        <a href="#contact" class="btn btn--accent btn--full">Получить расчёт</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПРЕИМУЩЕСТВА ===== -->
+<section class="advantages" id="about">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Почему выбирают нас</div>
+      <h2 class="section-title">Собственное производство полного цикла</h2>
+    </div>
+    <div class="advantages__grid">
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><path d="M20 8L8 14v7c0 7 4.7 13.5 12 15.4C27.3 34.5 32 28 32 21v-7L20 8z" stroke="#c8820a" stroke-width="1.8" stroke-linejoin="round"/><path d="M15 20l3.5 3.5 7-7" stroke="#c8820a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="adv__title">Гарантия 2 года</h3>
+        <p class="adv__text">Все изделия производим с гарантией 2 года. Дефекты производства устраняем бесплатно — обязательство в договоре.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><path d="M10 20l4 4 12-12" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><rect x="8" y="8" width="24" height="24" rx="4" stroke="#c8820a" stroke-width="1.8"/></svg>
+        </div>
+        <h3 class="adv__title">Работаем по договору</h3>
+        <p class="adv__text">Фиксируем сроки, комплектацию и стоимость в договоре. Всё согласовывается заранее — никаких сюрпризов.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><path d="M10 30V16l10-8 10 8v14H24v-7h-8v7H10z" stroke="#c8820a" stroke-width="1.8" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="adv__title">Собственное производство</h3>
+        <p class="adv__text">Изготавливаем мебель на собственном заводе — без посредников. Контролируем качество на каждом этапе.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><path d="M12 28l4-8 4 6 4-10 4 12" stroke="#c8820a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="adv__title">3D-визуализация</h3>
+        <p class="adv__text">Перед производством создаём реалистичный 3D-проект — вы увидите будущую мебель в вашем интерьере до изготовления.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><circle cx="20" cy="20" r="10" stroke="#c8820a" stroke-width="1.8"/><path d="M14 20h12M20 14v12" stroke="#c8820a" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="adv__title">Замер и монтаж включены</h3>
+        <p class="adv__text">Бесплатный выезд замерщика, доставка до квартиры и профессиональная сборка входят в стоимость заказа.</p>
+      </div>
+      <div class="adv">
+        <div class="adv__icon">
+          <svg viewBox="0 0 40 40" fill="none"><rect width="40" height="40" rx="10" fill="rgba(200,130,10,.12)"/><path d="M10 12h20M10 20h14M10 28h18" stroke="#c8820a" stroke-width="2" stroke-linecap="round"/><circle cx="29" cy="27" r="5" stroke="#c8820a" stroke-width="1.8"/><path d="M27 27l1.5 1.5L31 25" stroke="#c8820a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="adv__title">Качественные материалы</h3>
+        <p class="adv__text">Используем только сертифицированные материалы: ЛДСП Egger, МДФ, массив дерева, фурнитура Blum и Hettich.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== УСЛУГИ ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Что изготавливаем</div>
+      <h2 class="section-title">Любая мебель под ваши размеры</h2>
+    </div>
+    <div class="services__grid">
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="3" y="8" width="26" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3 18h26" stroke="currentColor" stroke-width="1.8"/><path d="M10 8v18M22 8v18" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/><path d="M9 26v3M23 26v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="srv__title">Кухни на заказ</h3>
+        <p class="srv__text">Кухонные гарнитуры любой конфигурации — прямые, угловые, П-образные. Подбираем фасады, столешницы, фурнитуру.</p>
+        <div class="srv__price">от 45 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="4" width="24" height="26" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 14h24" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/><path d="M14 4v26" stroke="currentColor" stroke-width="1.5" stroke-dasharray="3 2"/><circle cx="10" cy="9" r="1.5" fill="currentColor"/><circle cx="10" cy="19" r="1.5" fill="currentColor"/></svg>
+        </div>
+        <h3 class="srv__title">Шкафы-купе</h3>
+        <p class="srv__text">Встроенные и корпусные шкафы-купе с наполнением под одежду, белье, аксессуары. Зеркальные и матовые фасады.</p>
+        <div class="srv__price">от 25 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><path d="M4 26V10l4-6h16l4 6v16H4z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M4 16h24" stroke="currentColor" stroke-width="1.5"/><path d="M12 26v-6h8v6" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+        </div>
+        <h3 class="srv__title">Прихожие</h3>
+        <p class="srv__text">Функциональные прихожие с местом для верхней одежды, обуви, зеркалами и системой хранения под любую планировку.</p>
+        <div class="srv__price">от 18 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="3" y="14" width="26" height="12" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M8 14V9a1 1 0 011-1h14a1 1 0 011 1v5" stroke="currentColor" stroke-width="1.8"/><path d="M7 26v3M25 26v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><path d="M14 10h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="srv__title">Мебель для спальни</h3>
+        <p class="srv__text">Кровати, комоды, тумбочки, туалетные столики. Единый стиль для всей спальни с учётом ваших размеров помещения.</p>
+        <div class="srv__price">от 35 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="3" y="18" width="26" height="8" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M6 18v-4a2 2 0 012-2h16a2 2 0 012 2v4" stroke="currentColor" stroke-width="1.8"/><path d="M8 18V10M24 18V10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 26v3M22 26v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="srv__title">Гостиные и стенки</h3>
+        <p class="srv__text">Модульные стенки, горки, ТВ-тумбы, стеллажи и библиотеки. Вписываем мебель в любой интерьер гостиной.</p>
+        <div class="srv__price">от 30 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+      <div class="srv">
+        <div class="srv__icon">
+          <svg viewBox="0 0 32 32" fill="none"><rect x="4" y="8" width="24" height="18" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M4 16h24" stroke="currentColor" stroke-width="1.5"/><path d="M14 22h4M12 12h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M10 26v3M22 26v3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <h3 class="srv__title">Офисная мебель</h3>
+        <p class="srv__text">Рабочие столы, тумбы, стеллажи, ресепшн-стойки, переговорные зоны. Мебель для любого офисного пространства.</p>
+        <div class="srv__price">от 20 000 ₽</div>
+        <div class="srv__note">включая замер, проект, монтаж</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПРАЙС ===== -->
+<section class="price" id="price">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Стоимость</div>
+      <h2 class="section-title">Ориентировочные цены</h2>
+    </div>
+    <div class="price__cols">
+      <div class="price__block">
+        <div class="price__block-title">Корпусная мебель</div>
+        <table class="price__table">
+          <thead>
+            <tr><th>Вид мебели</th><th>Цена от</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Кухня прямая</td><td>45 000 ₽</td></tr>
+            <tr><td>Кухня угловая</td><td>60 000 ₽</td></tr>
+            <tr><td>Шкаф-купе (2-дверный)</td><td>25 000 ₽</td></tr>
+            <tr><td>Шкаф-купе (3-дверный)</td><td>35 000 ₽</td></tr>
+            <tr><td>Прихожая</td><td>18 000 ₽</td></tr>
+            <tr><td>Гостиная / стенка</td><td>30 000 ₽</td></tr>
+            <tr><td>Мебель для спальни</td><td>35 000 ₽</td></tr>
+            <tr class="price__row--accent"><td>Офисная мебель</td><td>20 000 ₽</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="price__block">
+        <div class="price__block-title">Что включено в стоимость</div>
+        <table class="price__table">
+          <thead>
+            <tr><th>Услуга</th><th>Стоимость</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Замер на дому</td><td>бесплатно</td></tr>
+            <tr><td>3D-проект и визуализация</td><td>бесплатно</td></tr>
+            <tr><td>Доставка по городу</td><td>включена</td></tr>
+            <tr><td>Профессиональная сборка</td><td>включена</td></tr>
+            <tr><td>Подключение техники (кухня)</td><td>включено</td></tr>
+            <tr><td>Гарантийное обслуживание</td><td>2 года</td></tr>
+            <tr class="price__row--accent"><td>Договор с фиксированной ценой</td><td>всегда</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="price__note">
+      <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><circle cx="10" cy="10" r="9" stroke="#c8820a" stroke-width="1.5"/><path d="M10 9v5M10 7v1" stroke="#c8820a" stroke-width="1.5" stroke-linecap="round"/></svg>
+      Итоговая стоимость зависит от размеров, материалов и комплектации. Точный расчёт — после бесплатного замера. Цена фиксируется в договоре.
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПРОЦЕСС ===== -->
+<section class="process" id="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Как мы работаем</div>
+      <h2 class="section-title">5 шагов от замера до готовой мебели</h2>
+    </div>
+    <div class="process__steps">
+      <div class="step">
+        <div class="step__num">01</div>
+        <div class="step__body">
+          <h3 class="step__title">Заявка и консультация</h3>
+          <p class="step__text">Оставляете заявку или звоните. Обсуждаем задачу, стиль, примерный бюджет. Договариваемся о времени выезда замерщика.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">02</div>
+        <div class="step__body">
+          <h3 class="step__title">Замер и проектирование</h3>
+          <p class="step__text">Мастер приезжает, снимает точные размеры помещения. Дизайнер разрабатывает проект с 3D-визуализацией — вы увидите результат до производства.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">03</div>
+        <div class="step__body">
+          <h3 class="step__title">Согласование и договор</h3>
+          <p class="step__text">Вносим правки в проект, финально согласовываем материалы и цвет. Подписываем договор с фиксированной ценой и сроком изготовления.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">04</div>
+        <div class="step__body">
+          <h3 class="step__title">Производство</h3>
+          <p class="step__text">Изготавливаем мебель на собственном производстве в согласованные сроки. Вы можете приехать и проверить качество до доставки.</p>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step__num">05</div>
+        <div class="step__body">
+          <h3 class="step__title">Доставка и монтаж</h3>
+          <p class="step__text">Доставляем, собираем и устанавливаем мебель. Убираем за собой упаковку. Проверяете работу — подписываете акт сдачи и получаете гарантийные документы.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ПОРТФОЛИО ===== -->
+<section class="works" id="works">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Наши работы</div>
+      <h2 class="section-title">Примеры выполненных проектов</h2>
+    </div>
+    <div class="works__grid">
+      <div class="work-card">
+        <div class="work-card__img work-card__img--placeholder">
+          <svg viewBox="0 0 80 60" fill="none" width="60"><rect x="4" y="8" width="72" height="44" rx="3" fill="rgba(200,130,10,.1)" stroke="#c8820a" stroke-width="1.2"/><path d="M4 28h72" stroke="#c8820a" stroke-width="1" stroke-dasharray="4 3"/><rect x="16" y="12" width="20" height="14" rx="2" fill="rgba(200,130,10,.15)" stroke="#c8820a" stroke-width="1"/><rect x="44" y="12" width="28" height="14" rx="2" fill="rgba(200,130,10,.15)" stroke="#c8820a" stroke-width="1"/><rect x="8" y="32" width="64" height="16" rx="2" fill="rgba(200,130,10,.12)" stroke="#c8820a" stroke-width="1"/></svg>
+          <span class="work-card__tag">Кухня</span>
+        </div>
+        <div class="work-card__body">
+          <div class="work-card__title">Угловая кухня в стиле лофт</div>
+          <p class="work-card__text">МДФ с матовой покраской, столешница из искусственного камня, фурнитура Blum. Площадь 9 м².</p>
+          <div class="work-card__price">Проект: 87 000 ₽</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-card__img work-card__img--placeholder">
+          <svg viewBox="0 0 80 60" fill="none" width="60"><rect x="10" y="4" width="60" height="52" rx="3" fill="rgba(200,130,10,.1)" stroke="#c8820a" stroke-width="1.2"/><path d="M35 4v52" stroke="#c8820a" stroke-width="1" stroke-dasharray="4 3"/><circle cx="28" cy="14" r="3" fill="rgba(200,130,10,.3)" stroke="#c8820a" stroke-width="1"/><circle cx="28" cy="30" r="3" fill="rgba(200,130,10,.3)" stroke="#c8820a" stroke-width="1"/><circle cx="28" cy="46" r="3" fill="rgba(200,130,10,.3)" stroke="#c8820a" stroke-width="1"/><path d="M42 14h20M42 22h16M42 30h20M42 38h14M42 46h18" stroke="#c8820a" stroke-width="1" stroke-linecap="round"/></svg>
+          <span class="work-card__tag">Шкаф-купе</span>
+        </div>
+        <div class="work-card__body">
+          <div class="work-card__title">Встроенный шкаф-купе 3-метровый</div>
+          <p class="work-card__text">ЛДСП Egger, зеркальные фасады, внутреннее наполнение с полками, штангами и выдвижными ящиками.</p>
+          <div class="work-card__price">Проект: 48 000 ₽</div>
+        </div>
+      </div>
+      <div class="work-card">
+        <div class="work-card__img work-card__img--placeholder">
+          <svg viewBox="0 0 80 60" fill="none" width="60"><rect x="6" y="20" width="68" height="32" rx="2" fill="rgba(200,130,10,.1)" stroke="#c8820a" stroke-width="1.2"/><rect x="14" y="8" width="52" height="12" rx="2" fill="rgba(200,130,10,.15)" stroke="#c8820a" stroke-width="1"/><rect x="20" y="30" width="16" height="22" fill="rgba(200,130,10,.2)" stroke="#c8820a" stroke-width="1"/><rect x="44" y="30" width="16" height="22" fill="rgba(200,130,10,.2)" stroke="#c8820a" stroke-width="1"/><path d="M6 38h68" stroke="#c8820a" stroke-width="1"/></svg>
+          <span class="work-card__tag">Гостиная</span>
+        </div>
+        <div class="work-card__body">
+          <div class="work-card__title">Гостиная стенка с подсветкой</div>
+          <p class="work-card__text">Модульная система с LED-подсветкой, открытые полки, тумба под ТВ, встроенные ящики. МДФ белый матовый.</p>
+          <div class="work-card__price">Проект: 62 000 ₽</div>
+        </div>
+      </div>
+    </div>
+    <div class="works__cta">
+      <p>Хотите увидеть больше работ? Позвоните — пришлём каталог или расскажем про аналогичные проекты.</p>
+      <a href="#contact" class="btn btn--accent">Получить расчёт</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Частые вопросы</div>
+      <h2 class="section-title">Ответы на главные вопросы</h2>
+    </div>
+    <div class="faq__list">
+      <details class="faq__item">
+        <summary class="faq__q">Сколько времени занимает изготовление?</summary>
+        <div class="faq__a">Зависит от вида мебели и сложности. Шкаф-купе — 7–14 дней, кухня — 14–21 день, комплекс мебели для нескольких комнат — 3–5 недель. Точные сроки фиксируются в договоре. Срочные заказы обсуждаются индивидуально.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Замер и проект платные?</summary>
+        <div class="faq__a">Нет. Выезд замерщика и разработка 3D-проекта — бесплатно. Вы ничего не платите до подписания договора. Проект делаем столько раз, сколько нужно, пока результат вас не устроит.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Какие материалы используете?</summary>
+        <div class="faq__a">Работаем с сертифицированными материалами: ЛДСП Egger (Австрия), МДФ, массив дерева. Фурнитура — Blum (Австрия) и Hettich (Германия). Все материалы имеют санитарные сертификаты, безопасны для жилых помещений.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Входит ли доставка и сборка в стоимость?</summary>
+        <div class="faq__a">Да, доставка по городу и профессиональный монтаж включены в стоимость заказа. После сборки мастера уберут упаковку и мусор. Доставка за городскую черту рассчитывается отдельно.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Можно ли изменить проект после подписания договора?</summary>
+        <div class="faq__a">Небольшие правки (цвет, тип ручек, расположение полок) возможны в первые 3 дня после подписания договора. Существенные изменения конструкции после запуска производства могут повлиять на стоимость и сроки.</div>
+      </details>
+      <details class="faq__item">
+        <summary class="faq__q">Что такое гарантия 2 года на практике?</summary>
+        <div class="faq__a">В течение 2 лет мы бесплатно устраняем любые дефекты: отслоение плёнки, нарушение работы фурнитуры, скрипы, провисание дверей. Выезжаем по гарантии в течение 3 рабочих дней после обращения.</div>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ФОРМА + КАРТА ===== -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <div class="section-head">
+      <div class="section-label">Заявка</div>
+      <h2 class="section-title">Рассчитайте стоимость бесплатно</h2>
+      <p class="section-sub">Оставьте заявку — перезвоним в течение часа, ответим на вопросы и договоримся о замере</p>
+    </div>
+    <div class="contact-row">
+      <div class="form-wrap">
+        <form id="leadForm" class="form" novalidate>
+          <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+          <div class="form__group">
+            <label class="form__label">Ваше имя *</label>
+            <input class="form__input" type="text" name="name" placeholder="Как вас зовут?" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label">Телефон *</label>
+            <input class="form__input" type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+          </div>
+          <div class="form__group">
+            <label class="form__label">Что нужно изготовить?</label>
+            <select class="form__input form__select" name="service">
+              <option value="">Выберите вид мебели</option>
+              <option>Кухня на заказ</option>
+              <option>Шкаф-купе</option>
+              <option>Прихожая</option>
+              <option>Мебель для спальни</option>
+              <option>Гостиная / стенка</option>
+              <option>Офисная мебель</option>
+              <option>Другое</option>
+            </select>
+          </div>
+          <div class="form__group">
+            <label class="form__label">Примерные размеры или площадь</label>
+            <input class="form__input" type="text" name="size" placeholder="Например: 3×2.5 м, или 12 кв.м.">
+          </div>
+          <div class="form__group">
+            <label class="form__label">Примерный бюджет</label>
+            <select class="form__input form__select" name="budget">
+              <option value="">Не определился</option>
+              <option>до 30 000 ₽</option>
+              <option>30 000 – 60 000 ₽</option>
+              <option>60 000 – 120 000 ₽</option>
+              <option>от 120 000 ₽</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn--accent btn--full">Получить расчёт бесплатно</button>
+          <p class="form__agree">Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности</p>
+        </form>
+      </div>
+      <div class="map-wrap">
+        <iframe
+          src="https://yandex.ru/map-widget/v1/?ll=37.6173,55.7558&z=12&pt=37.6173,55.7558,pm2rdm"
+          width="100%" height="100%" style="border:0" allowfullscreen loading="lazy" title="Карта">
+        </iframe>
+        <div class="contact-cards">
+          <div class="contact-card">
+            <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M10 2a6 6 0 00-6 6c0 4 6 10 6 10s6-6 6-10a6 6 0 00-6-6zm0 8a2 2 0 110-4 2 2 0 010 4z" fill="#c8820a"/></svg>
+            <span>Ваш город, ул. Примерная, 1 <em>(заглушка)</em></span>
+          </div>
+          <div class="contact-card">
+            <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M2 5.5a.5.5 0 01.5-.5h.878c.486 0 .916.308 1.079.768l1.046 2.98a1.5 1.5 0 01-.342 1.574L4.07 11.43C5.2 13.42 6.58 14.8 8.57 15.93l1.108-1.09a1.5 1.5 0 011.574-.343l2.98 1.046c.46.162.768.593.768 1.079V17.5a.5.5 0 01-.5.5C7.596 18 2 12.404 2 5.5z" fill="#c8820a"/></svg>
+            <a href="tel:+79990000000">+7 (999) 000-00-00 <em>(заглушка)</em></a>
+          </div>
+          <div class="contact-card">
+            <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><circle cx="10" cy="10" r="8" stroke="#c8820a" stroke-width="1.5"/><path d="M10 6v5l3 2" stroke="#c8820a" stroke-width="1.5" stroke-linecap="round"/></svg>
+            <span>Пн–Пт: 9:00–19:00, Сб: 10:00–17:00</span>
+          </div>
+          <div class="contact-card">
+            <svg viewBox="0 0 20 20" fill="none" width="18" height="18"><path d="M2 5.5A.5.5 0 012.5 5h15a.5.5 0 01.5.5v9a.5.5 0 01-.5.5h-15A.5.5 0 012 14.5v-9z" stroke="#c8820a" stroke-width="1.5"/><path d="M2 6l8 5 8-5" stroke="#c8820a" stroke-width="1.5"/></svg>
+            <span>info@example.com <em>(заглушка)</em></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer__inner">
+    <div class="footer__left">
+      <a href="#" class="logo">
+        <div class="logo__mark">
+          <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><rect x="2" y="3" width="20" height="14" rx="2" stroke="#0e0c09" stroke-width="2"/><path d="M8 21h8M12 17v4" stroke="#0e0c09" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <span class="logo__text">МебельМастер</span>
+      </a>
+      <p class="footer__copy">© <span id="year"></span> Изготовление мебели на заказ. Работаем по договору.</p>
+    </div>
+    <div class="footer__links">
+      <a href="#services">Услуги</a>
+      <a href="#price">Цены</a>
+      <a href="#process">Как работаем</a>
+      <a href="#works">Портфолио</a>
+      <a href="#contact">Заявка</a>
+    </div>
+    <div class="footer__social">
+      <a href="#" class="social-btn" title="WhatsApp">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17 0-.37-.02-.57-.02-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.27.49 1.7.63.71.22 1.36.19 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 21.82c-1.88 0-3.65-.5-5.18-1.37l-3.63 1.13 1.15-3.53A9.78 9.78 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18S21.82 6.57 21.82 12 17.43 21.82 12 21.82z"/></svg>
+      </a>
+      <a href="#" class="social-btn" title="Telegram">
+        <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.94 8.19l-2.02 9.53c-.15.67-.54.83-1.08.52l-3-2.21-1.45 1.4c-.16.16-.3.3-.61.3l.22-3.08 5.62-5.08c.24-.22-.05-.34-.37-.12L6.11 14.12l-2.96-.93c-.64-.2-.65-.64.14-.95l11.57-4.46c.54-.2 1.01.13.84.95l.24-.54z"/></svg>
+      </a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FAB ===== -->
+<a href="https://wa.me/79990000000" class="fab fab--wa" target="_blank" rel="noopener" title="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><path d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.07-.15-.67-1.61-.92-2.2-.24-.58-.49-.5-.67-.51-.17 0-.37-.02-.57-.02-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.87 1.22 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.27.49 1.7.63.71.22 1.36.19 1.87.12.57-.08 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35z"/><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 21.82c-1.88 0-3.65-.5-5.18-1.37l-3.63 1.13 1.15-3.53A9.78 9.78 0 012.18 12C2.18 6.57 6.57 2.18 12 2.18S21.82 6.57 21.82 12 17.43 21.82 12 21.82z"/></svg>
+</a>
+<a href="#" class="fab fab--tg" title="Telegram">
+  <svg viewBox="0 0 24 24" fill="white" width="24" height="24"><path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm5.94 8.19l-2.02 9.53c-.15.67-.54.83-1.08.52l-3-2.21-1.45 1.4c-.16.16-.3.3-.61.3l.22-3.08 5.62-5.08c.24-.22-.05-.34-.37-.12L6.11 14.12l-2.96-.93c-.64-.2-.65-.64.14-.95l11.57-4.46c.54-.2 1.01.13.84.95l.24-.54z"/></svg>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
